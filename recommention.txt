@@ -1,0 +1,39 @@
+# Uber Trips Analysis — Key Insights & Business Recommendations
+
+## 1. Overall Trip Performance
+The dataset contains approximately 50,000 trips. Of these, 42,540 were completed (85.08%), 4,984 were cancelled (9.97%), and 2,476 were marked as No-Show (4.95%).
+
+**Recommendation:** Investigate cancellation and No-Show patterns by city, time slot, and driver to identify potential operational improvements.
+
+## 2. City Performance
+Boston recorded the highest trip volume (approximately 8.5K trips) and the highest reported actual revenue (approximately $115K). Revenue across the six cities was relatively similar.
+
+**Recommendation:** Evaluate driver availability, estimated arrival time, and cancellation rates in Boston before increasing driver capacity. Investigate the reported lost-revenue figures to confirm their definition and calculation.
+
+## 3. Driver Performance
+Driver performance should be evaluated using completed trips, revenue, cancellation rate, and customer ratings where available.
+
+**Recommendation:** Recognize consistently high-performing drivers through performance-based incentives. Investigate unusually high cancellation rates relative to each driver's total trips before taking corrective action.
+
+## 4. Time-Slot Performance
+Late Night and Midday recorded the highest trip volumes, at approximately 12.6K trips each. These periods also generated the highest reported revenue.
+
+**Recommendation:** Review driver availability, waiting times, and unserved demand during these periods. Adjust driver schedules only when the data confirms a coverage gap.
+
+## 5. Day-of-Week Performance
+Saturday appears to have lower trip volume than other days.
+
+**Recommendation:** Validate this pattern across a sufficiently long period and across cities. If the decline is consistent, consider adjusting driver shifts while maintaining adequate service coverage.
+
+## 6. Customer Loyalty
+Frequent customers may represent an opportunity to improve retention.
+
+**Recommendation:** Test a limited loyalty or rewards program and measure incremental completed trips, retention, and profit after rewards costs.
+
+## 7. Cancellation and No-Show Reduction
+Cancelled trips represent 9.97% of recorded trips, while No-Show trips represent 4.95%.
+
+**Recommendation:** Capture cancellation reasons, identify the responsible party, and examine ETA and timing patterns. Test fair, transparent policies for repeated confirmed No-Show cases rather than applying automatic penalties without further investigation.
+
+## Conclusion
+The analysis highlights opportunities to improve trip completion, driver scheduling, customer retention, and operational efficiency. Recommendations should be validated against additional operational data before implementation.
